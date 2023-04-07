@@ -26,7 +26,7 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity {
 
     EditText etcity, etCountry;
-    TextView tvResultId, textView3;
+    TextView tvResultId;
     private final String url = "https://api.openweathermap.org/data/2.5/weather";
     private final String appid = "5c9da24c383ffa322d1fd81c4fc5c728";
     DecimalFormat df = new DecimalFormat("#.##");
